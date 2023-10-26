@@ -24,43 +24,48 @@
 
       <div class="form-container">
         <form action="" method="get" class="form">
-          <h1>Welcome to Frustration</h1>
+          <h1 class="form-h1">Welcome</h1>
 
           <fieldset class="fieldset">
-            <legend>Create New User</legend>
+            <legend class="legend">Create New User</legend>
 
-            <label for="user-email">Enter Your Email</label>
+            <label for="user-email" class="label">Enter Your Email</label>
             <input
               type="email"
               id="user-email"
               name="email"
               placeholder="you@example.com"
               required
+              class="input"
             />
 
-            <label for="user-name">Create Username</label>
+            <label for="user-name" class="label">Create Username</label>
             <input
               type="text"
               id="user-name"
               name="user-name"
               placeholder="frustratedcat"
               required
+              class="input"
             />
 
-            <label for="user-password">Create Password</label
+            <label for="user-password" class="label">Create Password</label
+            ><input
+              type="password"
+              id="user-password"
+              name="user-password"
+              min="8"
+              required
+              class="input"
+            />
+
+            <label for="user-password" class="label">Re-Enter Password</label
             ><input
               type="password"
               id="user-password"
               name="user-password"
               required
-            />
-
-            <label for="user-password">Re-Enter Password</label
-            ><input
-              type="password"
-              id="user-password"
-              name="user-password"
-              required
+              class="input"
             />
 
             <button type="submit" id="create-user">Create User</button>

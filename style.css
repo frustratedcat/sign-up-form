@@ -1,3 +1,9 @@
+:root {
+  --primary-text: #33ff00;
+  --secondary-text: #ffffff;
+  --primary-background: #000000;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +12,7 @@
 
 html {
   font-family: "Press Start 2P", sans-serif;
+  font-size: 16px;
 }
 
 .main-container {
@@ -22,8 +29,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  margin: auto;
+  width: 40vw;
+  height: 100vh;
+  background-color: var(--primary-background);
 }
 
 .form,
@@ -32,12 +40,45 @@ html {
   flex-direction: column;
 }
 
+.fieldset {
+  border: none;
+}
+
 .form {
+  font-size: 0.8rem;
+  color: var(--primary-text);
   height: 75vh;
-  margin: 10px;
+  margin: 36px;
   padding: 16px;
-  border: 1px solid black;
+  border: 3px solid var(--primary-text);
   border-radius: 10px;
+}
+
+.form-h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.legend {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 8px;
+}
+
+.input {
+  font-family: inherit;
+  font-size: 0.6rem;
+  color: var(--secondary-text);
+  margin-bottom: 15px;
+  width: 90%;
+  height: 24px;
+  border: 2px solid var(--primary-text);
+  border-radius: 4px;
+  background-color: var(--primary-background);
 }
 
 .footer {
