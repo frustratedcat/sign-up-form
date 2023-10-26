@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A simple sign-up form for the frustrated cat"
-    />
+
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
 
@@ -16,25 +13,16 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
-    <title>Sign-Up Form</title>
+    <title>Sign In</title>
   </head>
   <body>
     <form action="" method="get">
       <h1>Welcome to Frustration</h1>
 
       <fieldset>
-        <legend>Create New User</legend>
+        <legend>Sign In</legend>
 
-        <label for="user-email">Enter Your Email</label>
-        <input
-          type="email"
-          id="user-email"
-          name="email"
-          placeholder="you@example.com"
-          required
-        />
-
-        <label for="user-name">Create Username</label>
+        <label for="user-name">Enter Username</label>
         <input
           type="text"
           id="user-name"
@@ -43,7 +31,7 @@
           required
         />
 
-        <label for="user-password">Create Password</label
+        <label for="user-password">Enter Password</label
         ><input
           type="password"
           id="user-password"
@@ -51,19 +39,11 @@
           required
         />
 
-        <label for="user-password">Re-Enter Password</label
-        ><input
-          type="password"
-          id="user-password"
-          name="user-password"
-          required
-        />
-
-        <button type="submit" id="create-user">Create User</button>
+        <button type="submit" id="sign-in">Sign In</button>
       </fieldset>
 
-      <label for="user-sign-in">Already have an account?</label
-      ><button type="button" id="user-sign-in">Sign In</button>
+      <label for="create-new-user">Don't have an account?</label
+      ><button type="button" id="create-new-user">Create User</button>
     </form>
   </body>
 </html>
