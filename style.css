@@ -7,3 +7,41 @@
 html {
   font-family: "Press Start 2P", sans-serif;
 }
+
+.main-container {
+  height: 100vh;
+  display: flex;
+}
+
+.image-container {
+  width: 60vw;
+  background-color: blue;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin: auto;
+}
+
+.form,
+.fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  height: 75vh;
+  margin: 10px;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

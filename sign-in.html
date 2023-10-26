@@ -16,37 +16,43 @@
     <title>Sign In</title>
   </head>
   <body>
-    <form action="" method="get">
-      <h1>Welcome to Frustration</h1>
+    <main class="main-container">
+      <div class="image-container"></div>
 
-      <fieldset>
-        <legend>Sign In</legend>
+      <div class="form-container">
+        <form action="" method="get" class="form">
+          <h1>Welcome to Frustration</h1>
 
-        <label for="user-name">Enter Username</label>
-        <input
-          type="text"
-          id="user-name"
-          name="user-name"
-          placeholder="frustratedcat"
-          required
-        />
+          <fieldset class="fieldset">
+            <legend>Sign In</legend>
 
-        <label for="user-password">Enter Password</label
-        ><input
-          type="password"
-          id="user-password"
-          name="user-password"
-          required
-        />
+            <label for="user-name">Enter Username</label>
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="frustratedcat"
+              required
+            />
 
-        <button type="submit" id="sign-in">Sign In</button>
-      </fieldset>
+            <label for="user-password">Enter Password</label
+            ><input
+              type="password"
+              id="user-password"
+              name="user-password"
+              required
+            />
 
-      <label for="create-new-user">Don't have an account?</label
-      ><button type="button" id="create-new-user">
-        <a href="./index.html">Create User</a>
-      </button>
-    </form>
-    <footer>&copy; frustratedcat 2023</footer>
+            <button type="submit" id="sign-in">Sign In</button>
+          </fieldset>
+
+          <label for="create-new-user">Don't have an account?</label
+          ><button type="button" id="create-new-user">
+            <a href="./index.html">Create User</a>
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">&copy; frustratedcat 2023</footer>
   </body>
 </html>
