@@ -18,5 +18,52 @@
     />
     <title>Sign-Up Form</title>
   </head>
-  <body></body>
+  <body>
+    <form action="" method="get">
+      <h1>Welcome to Frustration</h1>
+
+      <fieldset>
+        <legend>Create New User</legend>
+
+        <label for="user-email">Enter Your Email</label>
+        <input
+          type="email"
+          id="user-email"
+          name="email"
+          placeholder="you@example.com"
+          required
+        />
+
+        <label for="user-name">Create Username</label>
+        <input
+          type="text"
+          id="user-name"
+          name="user-name"
+          placeholder="frustratedcat"
+          required
+        />
+
+        <label for="user-password">Create Password</label
+        ><input
+          type="password"
+          id="user-password"
+          name="user-password"
+          required
+        />
+
+        <label for="user-password">Re-Enter Password</label
+        ><input
+          type="password"
+          id="user-password"
+          name="user-password"
+          required
+        />
+
+        <button type="submit" id="create-user">Create User</button>
+      </fieldset>
+
+      <label for="user-sign-in">Already have an account?</label
+      ><button type="button" id="user-sign-in">Sign-In</button>
+    </form>
+  </body>
 </html>
