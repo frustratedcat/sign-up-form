@@ -4,6 +4,7 @@
   --primary-background: #000000;
   --input-boxes: #100025;
   --btn-hover: #4700b3;
+  --invalid-input: #e03131;
 }
 
 * {
@@ -47,7 +48,7 @@ html {
 .form {
   font-size: 0.8rem;
   color: var(--primary-text);
-  height: 80vh;
+  height: 460px;
   width: 360px;
   padding: 16px;
   border: 2px solid var(--primary-text);
@@ -94,6 +95,26 @@ html {
   height: 24px;
   border: 1px solid var(--primary-text);
   border-radius: 4px;
+}
+
+.input:invalid {
+  color: var(--invalid-input);
+  border-color: var(--invalid-input);
+}
+
+.input:valid {
+  color: var(--secondary-text);
+  border-color: var(--primary-text);
+}
+
+.input-reset-margin {
+  margin-bottom: 5px;
+}
+
+.input-hint {
+  font-size: 0.5rem;
+  color: var(--secondary-text);
+  margin-bottom: 15px;
 }
 
 .btn {
