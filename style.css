@@ -63,8 +63,17 @@ html {
 }
 
 .pixel-cat-image {
+  transition: transform 0.2s;
+}
+
+.pixel-cat-image:hover {
+  transform: scale(1.2);
+}
+
+.cat-zoom-container {
   border: 2px solid var(--cat-color);
   border-radius: 7px;
+  overflow: hidden;
 }
 
 .form-container {
