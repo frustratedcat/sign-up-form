@@ -1,7 +1,8 @@
 :root {
-  --primary-text: #33ff00;
+  --primary-text: #39ff14;
   --secondary-text: #ffffff;
   --primary-background: #000000;
+  --input-boxes: #100025;
   --btn-hover: #4700b3;
 }
 
@@ -46,11 +47,11 @@ html {
 .form {
   font-size: 0.8rem;
   color: var(--primary-text);
-  height: 75vh;
-  width: 350px;
+  height: 80vh;
+  width: 360px;
   padding: 16px;
-  border: 3px solid var(--primary-text);
-  border-radius: 10px;
+  border: 2px solid var(--primary-text);
+  border-radius: 7px;
 }
 
 .fieldset {
@@ -61,8 +62,8 @@ html {
 
 .form-h1 {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 10px;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
 }
 
 .form-input-container {
@@ -80,19 +81,19 @@ html {
 
 .label {
   margin-bottom: 8px;
+  font-size: 0.7rem;
 }
 
 .input {
   font-family: inherit;
   font-size: 0.6rem;
   color: var(--secondary-text);
+  background-color: var(--input-boxes);
   margin-bottom: 15px;
-  padding: 5px;
-  /* width: 90%; */
+  padding: 12px 5px;
   height: 24px;
-  border: 2px solid var(--primary-text);
+  border: 1px solid var(--primary-text);
   border-radius: 4px;
-  background-color: var(--primary-background);
 }
 
 .btn {
@@ -102,6 +103,7 @@ html {
   font-size: 0.7rem;
   color: var(--primary-text);
   padding: 10px 5px;
+  margin: 10px;
   text-align: center;
   background-color: var(--primary-background);
   border: 2px solid var(--primary-text);
@@ -119,8 +121,22 @@ html {
 }
 
 .form-p {
-  margin-top: 20px;
+  margin-top: 13px;
   font-size: 0.7rem;
+}
+
+.form-a {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+
+.form-a:hover {
+  color: var(--btn-hover);
+}
+
+.form-a:active,
+.form-a:visited {
+  color: var(--primary-text);
 }
 
 .footer {
