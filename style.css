@@ -143,4 +143,8 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  font-size: 0.6rem;
+  color: var(--primary-text);
+  background-color: var(--primary-background);
 }
