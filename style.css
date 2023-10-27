@@ -2,6 +2,7 @@
   --primary-text: #33ff00;
   --secondary-text: #ffffff;
   --primary-background: #000000;
+  --btn-hover: #4700b3;
 }
 
 * {
@@ -84,8 +85,32 @@ html {
   background-color: var(--primary-background);
 }
 
+.btn {
+  height: 40px;
+  width: 100px;
+  font-family: inherit;
+  font-size: 0.7rem;
+  color: var(--primary-text);
+  padding: 10px 5px;
+  text-align: center;
+  background-color: var(--primary-background);
+  border: 2px solid var(--primary-text);
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background-color: var(--btn-hover);
+}
+
+.btn:active {
+  color: var(--secondary-text);
+  background-color: var(--btn-hover);
+  border: 2px solid var(--secondary-text);
+}
+
 .form-p {
   margin-top: 20px;
+  font-size: 0.7rem;
 }
 
 .footer {
