@@ -4,7 +4,7 @@
   --primary-background: #000000;
   --input-boxes: #100025;
   --btn-hover: #4700b3;
-  --invalid-input: #e03131;
+  --cat-color: #48a0e7;
 }
 
 * {
@@ -25,7 +25,46 @@ html {
 
 .image-container {
   width: 60vw;
-  background-color: blue;
+  background-color: var(--primary-background);
+  border-right: 2px solid var(--primary-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-paragraph-container {
+  width: 50vw;
+  text-align: left;
+  color: var(--primary-text);
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.image-paragraph-container > p {
+  margin-bottom: 10px;
+}
+
+.p-with-paw {
+  display: flex;
+}
+
+.fa-paw::before {
+  content: "\f1b0";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  color: var(--cat-color);
+}
+
+.pixel-cat-image {
+  border: 2px solid var(--cat-color);
+  border-radius: 7px;
 }
 
 .form-container {
@@ -157,6 +196,7 @@ html {
   padding: 10px;
   font-size: 0.6rem;
   background-color: var(--primary-background);
+  border-top: 2px solid var(--primary-text);
 }
 
 .footer-a {
