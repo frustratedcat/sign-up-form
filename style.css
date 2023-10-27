@@ -38,6 +38,8 @@ html {
 .fieldset {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fieldset {
@@ -74,11 +76,16 @@ html {
   font-size: 0.6rem;
   color: var(--secondary-text);
   margin-bottom: 15px;
+  padding: 5px;
   width: 90%;
   height: 24px;
   border: 2px solid var(--primary-text);
   border-radius: 4px;
   background-color: var(--primary-background);
+}
+
+.form-p {
+  margin-top: 20px;
 }
 
 .footer {
