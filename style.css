@@ -43,10 +43,6 @@ html {
   align-items: center;
 }
 
-.fieldset {
-  border: none;
-}
-
 .form {
   font-size: 0.8rem;
   color: var(--primary-text);
@@ -57,15 +53,29 @@ html {
   border-radius: 10px;
 }
 
+.fieldset {
+  border: none;
+  align-items: flex-start;
+  width: 100%;
+}
+
 .form-h1 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .legend {
+  width: 100%;
   font-size: 1.2rem;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .label {

@@ -29,47 +29,49 @@
           <fieldset class="fieldset">
             <legend class="legend">Create New User</legend>
 
-            <label for="user-email" class="label">Enter Your Email</label>
-            <input
-              type="email"
-              id="user-email"
-              name="email"
-              placeholder="you@example.com"
-              required
-              class="input"
-            />
+            <div class="form-input-container">
+              <label for="user-email" class="label">Enter Your Email</label>
+              <input
+                type="email"
+                id="user-email"
+                name="email"
+                placeholder="you@example.com"
+                required
+                class="input"
+              />
 
-            <label for="user-name" class="label">Create Username</label>
-            <input
-              type="text"
-              id="user-name"
-              name="user-name"
-              placeholder="frustratedcat"
-              required
-              class="input"
-            />
+              <label for="user-name" class="label">Create Username</label>
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                placeholder="frustratedcat"
+                required
+                class="input"
+              />
 
-            <label for="user-password" class="label">Create Password</label
-            ><input
-              type="password"
-              id="user-password"
-              name="user-password"
-              min="8"
-              required
-              class="input"
-            />
+              <label for="user-password" class="label">Create Password</label
+              ><input
+                type="password"
+                id="user-password"
+                name="user-password"
+                min="8"
+                required
+                class="input"
+              />
 
-            <label for="user-password" class="label">Re-Enter Password</label
-            ><input
-              type="password"
-              id="user-password"
-              name="user-password"
-              required
-              class="input"
-            />
-
-            <button type="submit" id="create-user" class="btn">Sign Up</button>
+              <label for="user-password" class="label">Re-Enter Password</label
+              ><input
+                type="password"
+                id="user-password"
+                name="user-password"
+                required
+                class="input"
+              />
+            </div>
           </fieldset>
+
+          <button type="submit" id="create-user" class="btn">Sign Up</button>
 
           <p class="form-p">
             Have an account? <a href="./sign-in.html">Sign In</a>
