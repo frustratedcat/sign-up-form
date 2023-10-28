@@ -184,7 +184,7 @@ html {
   font-size: 0.7rem;
 }
 
-.form-a {
+.form-a:link {
   text-decoration: none;
   color: var(--secondary-text);
 }
@@ -208,7 +208,7 @@ html {
   border-top: 2px solid var(--primary-text);
 }
 
-.footer-a {
+.footer-a:link {
   text-decoration: none;
   color: var(--primary-text);
 }
