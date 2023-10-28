@@ -36,14 +36,17 @@ html {
 
 .image-paragraph-container {
   width: 50vw;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
   color: var(--primary-text);
   font-size: 1rem;
-  margin-bottom: 20px;
 }
 
 .image-paragraph-container > p {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .p-with-paw {
