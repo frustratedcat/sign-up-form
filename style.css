@@ -16,6 +16,7 @@
 html {
   font-family: "Press Start 2P", sans-serif;
   font-size: 16px;
+  border: 2px solid var(--primary-text);
 }
 
 .main-container {
