@@ -18,6 +18,10 @@ html {
   font-size: 16px;
 }
 
+.show-none {
+  display: none;
+}
+
 .main-container {
   height: 100vh;
   display: flex;
@@ -47,6 +51,7 @@ html {
 
 .p-with-paw {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .fa-paw::before {
@@ -220,4 +225,20 @@ html {
 .footer-a:active,
 .footer-a:visited {
   color: var(--secondary-text);
+}
+
+@media (max-width: 900px) {
+  .image-container {
+    display: none;
+  }
+
+  .form-container {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 330px) {
+  .form-h1 {
+    font-size: 1.4rem;
+  }
 }
